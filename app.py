@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyDJPBrzlyUihapSMknh4ViQjDfYcyMTDDw")
+client = genai.Client(api_key="PUT YOUR API KEY HERE")
 
 @app.route('/')
 def index():
